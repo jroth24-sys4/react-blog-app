@@ -1,0 +1,104 @@
+.home {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 5rem 1rem 3rem;
+  position: relative;
+}
+
+.hero-eyebrow {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--ink-faint);
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.hero-headline {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 900;
+  color: var(--ink);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+.hero-sub {
+  max-width: 520px;
+  margin: 0 auto 2.5rem;
+  font-size: 1.1rem;
+  color: var(--ink-light);
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.hero-cta {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.85rem 2.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.hero-cta:hover {
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+.hero-ornament {
+  font-size: 2rem;
+  color: var(--rule);
+  margin-top: 3rem;
+  display: block;
+}
+
+/* Feature cards */
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0;
+  border: 1px solid var(--rule);
+  border-right: none;
+}
+
+.feature-card {
+  padding: 2.5rem 2rem;
+  border-right: 1px solid var(--rule);
+  transition: background 0.2s;
+}
+
+.feature-card:hover {
+  background: var(--paper-dark);
+}
+
+.feature-icon {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: var(--ink);
+}
+
+.feature-card p {
+  font-size: 0.9rem;
+  color: var(--ink-light);
+  line-height: 1.6;
+  font-style: italic;
+}

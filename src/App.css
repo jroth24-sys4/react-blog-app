@@ -1,0 +1,27 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* ── Footer ── */
+.site-footer {
+  background: var(--ink);
+  color: var(--ink-faint);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
+.footer-rule {
+  width: 60px;
+  height: 2px;
+  background: var(--accent);
+  margin: 0 auto 1.25rem;
+}
